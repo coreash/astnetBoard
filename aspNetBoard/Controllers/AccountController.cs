@@ -1,6 +1,7 @@
 ﻿using aspNetBoard.DataContext;
 using aspNetBoard.Models;
 using aspNetBoard.ViewModel;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -34,6 +35,7 @@ namespace aspNetBoard.Controllers
                                             x.Password.Equals(model.Password));
                     if (user != null)
                     {
+                        HttpContext.Session.SetInt32("USER_LOGIN_KEY", user.UserNo);
                         return RedirectToAction("LoginSuccess", "Home");
                     }
                 }
@@ -42,6 +44,15 @@ namespace aspNetBoard.Controllers
             return View(model);
         }
 
+        /// <summary>
+        /// 로그아웃
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("USER_LOGIN_KEY");
+            return RedirectToAction("Index", "Home"); ;
+        }
         /// <summary>
         /// 회원가입
         /// </summary>

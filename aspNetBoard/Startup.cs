@@ -32,6 +32,8 @@ namespace aspNetBoard
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            //session을 서비스에 등록
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,7 +50,8 @@ namespace aspNetBoard
 
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
+            // Application에서 사용하겠다.
+            app.UseSession();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
