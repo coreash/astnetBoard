@@ -33,3 +33,6 @@ D:\dev\study\asp.net\aspnetBoard\aspNetBoard\obj\Debug\netcoreapp2.1\aspNetBoard
 D:\dev\study\asp.net\aspnetBoard\aspNetBoard\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.cshtml.g.cs
 D:\dev\study\asp.net\aspnetBoard\aspNetBoard\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.cshtml.g.cs
 D:\dev\study\asp.net\aspnetBoard\aspNetBoard\obj\Debug\netcoreapp2.1\Razor\Views\Home\LoginSuccess.cshtml.g.cs
+D:\dev\study\asp.net\aspnetBoard\aspNetBoard\obj\Debug\netcoreapp2.1\Razor\Views\Note\Add.cshtml.g.cs
+D:\dev\study\asp.net\aspnetBoard\aspNetBoard\obj\Debug\netcoreapp2.1\Razor\Views\Note\Edit.cshtml.g.cs
+D:\dev\study\asp.net\aspnetBoard\aspNetBoard\obj\Debug\netcoreapp2.1\Razor\Views\Note\Index.cshtml.g.cs
