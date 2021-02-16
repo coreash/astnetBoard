@@ -29,6 +29,23 @@ namespace aspNetBoard.Controllers
         }
 
         /// <summary>
+        /// 상세보기
+        /// </summary>
+        /// <param name="noteNo"></param>
+        /// <returns></returns>
+        public IActionResult Detail(int noteNo)
+        {
+            if (HttpContext.Session.GetInt32("USER_LOGIN_KEY") == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+            using(var db = new AspNetNoteDbContext())
+            {
+                var note = db.Notes.FirstOrDefault(n=>n.NoteNo.Equals(noteNo));
+                return View(note);
+            }
+        }
+        /// <summary>
         /// 게시물 추가
         /// </summary>
         /// <returns></returns>
@@ -81,11 +98,22 @@ namespace aspNetBoard.Controllers
         /// 게시물 삭제
         /// </summary>
         /// <returns></returns>
-        public IActionResult Delete()
+        public IActionResult Delete(int noteNo)
         {
             if (HttpContext.Session.GetInt32("USER_LOGIN_KEY") == null)
             {
                 return RedirectToAction("Login", "Account");
+            }
+            using(var db = new AspNetNoteDbContext())
+            {
+                db.Notes.Remove(new Note() { 
+                    NoteNo = noteNo
+                });
+                if (db.SaveChanges() > 0)
+                {
+                    return Redirect("Index");
+                }
+                ModelState.AddModelError(string.Empty, "게시물을 삭제할 수 없습니다.");
             }
             return View();
         }
