@@ -37,6 +37,7 @@ jQuery.trumbowyg.langs.ko = {
     orderedList: '번호 목록',
 
     insertImage: '이미지 넣기',
+    upload: '첨부파일',
     insertVideo: '비디오 넣기',
     link: '링크',
     createLink: '링크 넣기',
@@ -62,5 +63,6 @@ jQuery.trumbowyg.langs.ko = {
     title: '툴팁',
     text: '내용',
     target: '타겟',
-    width: '너비'
+    width: '너비',
+
 };

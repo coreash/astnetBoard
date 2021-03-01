@@ -88,7 +88,7 @@ using aspNetBoard.Models;
             WriteLiteral("\r\n            </div>\r\n            <div class=\"panel-footer text-right\">\r\n                ");
             EndContext();
             BeginContext(512, 74, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12c75197c5a642908704e5b16cae5220", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f306f89123a42b5bbeb6ea47f5c9eb3", async() => {
                 BeginContext(580, 2, true);
                 WriteLiteral("목록");
                 EndContext();
@@ -113,7 +113,7 @@ using aspNetBoard.Models;
             WriteLiteral("\r\n                ");
             EndContext();
             BeginContext(604, 107, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b98003999d204dd8ab0f86293d3be90e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ce1089b684e47e08cb383616dce3109", async() => {
                 BeginContext(705, 2, true);
                 WriteLiteral("삭제");
                 EndContext();

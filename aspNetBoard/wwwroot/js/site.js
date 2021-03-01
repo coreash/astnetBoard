@@ -3,5 +3,25 @@
 
 // Write your JavaScript code.
 $('.editor').trumbowyg({
-    lang: 'ko'
+    lang: 'ko',
+    btnsDef: {
+        image: {
+            dropdown: ['insertImage', 'upload'],
+            ico: 'insertImage'
+        },
+    },
+    btns: [
+        ['viewHTML'],
+        ['formatting'],
+        'btnGrp-semantic',
+        ['superscript','subscript'],
+        ['link'],
+        ['insertImage'],
+        'image',
+        'btnGrp-justify',
+        'btnGrp-lists',
+        ['horizontalRule'],
+        ['removeFormat'],
+        ['fullscreen'],
+    ]
 });

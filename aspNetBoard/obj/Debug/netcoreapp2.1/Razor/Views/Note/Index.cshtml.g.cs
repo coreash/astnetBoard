@@ -76,7 +76,7 @@ using aspNetBoard.Models;
             WriteLiteral("</td>\r\n                <td>\r\n                    ");
             EndContext();
             BeginContext(367, 144, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4463d70ba08949d2946164c591b53aa0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d40143f30a11421b8bbd6a89406ef5fa", async() => {
                 BeginContext(444, 26, true);
                 WriteLiteral("\r\n                        ");
                 EndContext();
@@ -141,7 +141,7 @@ using aspNetBoard.Models;
             WriteLiteral("    </tbody>\r\n</table>\r\n\r\n");
             EndContext();
             BeginContext(631, 72, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f7236c1c83cd423a9db211b4cddee7a2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a58e6f61902e4ac7a9f777aea6eb5f9e", async() => {
                 BeginContext(697, 2, true);
                 WriteLiteral("새글");
                 EndContext();
