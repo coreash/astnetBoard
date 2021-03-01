@@ -37,3 +37,4 @@ D:\dev\study\asp.net\aspnetBoard\aspNetBoard\obj\Debug\netcoreapp2.1\Razor\Views
 D:\dev\study\asp.net\aspnetBoard\aspNetBoard\obj\Debug\netcoreapp2.1\Razor\Views\Note\Edit.cshtml.g.cs
 D:\dev\study\asp.net\aspnetBoard\aspNetBoard\obj\Debug\netcoreapp2.1\Razor\Views\Note\Index.cshtml.g.cs
 D:\dev\study\asp.net\aspnetBoard\aspNetBoard\obj\Debug\netcoreapp2.1\Razor\Views\Note\Detail.cshtml.g.cs
+D:\dev\study\asp.net\aspnetBoard\aspNetBoard\bin\Debug\netcoreapp2.1\libman.json
